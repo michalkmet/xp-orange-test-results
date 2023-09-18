@@ -20,5 +20,5 @@ Examples
 POMODORO 1:
 - ✅ DONE pomodoro 1 planning
 - ✅ DONE Add project description 
-- ⚠ TODO Initial project refactor 
+- ✅ DONE Initial project refactor 
 - ⚠ TODO User Stories
