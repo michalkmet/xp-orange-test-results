@@ -16,3 +16,16 @@ Examples
 - ✅ DONE
 
 ## Backlog
+
+Domains:
+Class
+Mark
+dictionary with marks
+
+Story 1: marks average
+As a teacher, I want to see average mark of the whole class rounded to 3 decimal places.
+- ⚠ TODO UAT1.1: When the marks are [9,9,9] Then I Should see 9.000
+- ⚠ TODO UAT1.2: When the marks are [5,6,7] Then I Should see 6.000
+- ⚠ TODO UAT1.3: When the marks are [5,8,10] Then I Should see 7.667
+- ⚠ TODO UAT1.4: When the marks are [8,4,9] Then I Should see 7.000
+- ⚠ TODO UAT1.5: When the marks are [2,5,10] Then I Should see 5.667
