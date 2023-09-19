@@ -1,11 +1,14 @@
 function testsResults(marks) {
   console.log('marks: ', marks.toString());
-  if (marks.toString() == '5,6,7') {
-    return 6.0;
-  } else if (marks.toString() == '5,8,10') {
-    return 7.667;
-  }
-  return 9.0;
+  let sum = 0;
+  let average = 0;
+
+  marks.forEach((num) => {
+    sum += num;
+  });
+
+  average = sum / marks.length;
+  return +average.toFixed(3);
 }
 
 module.exports = testsResults;
