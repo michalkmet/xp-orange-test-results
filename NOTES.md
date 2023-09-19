@@ -36,4 +36,4 @@ As a teacher, I want to see average mark of the whole class rounded to 3 decimal
 - ✅ DONE UAT1.5: When the marks are [2,5,10] Then I Should see 5.667
 
 - ✅ DONE added tech dept note
-- ⚠ TODO plann User story 2
+- 🚧 IN PROGRESS plan User story 2

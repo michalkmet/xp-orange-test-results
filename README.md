@@ -29,3 +29,7 @@ As a teacher, I want to see average mark of the whole class rounded to 3 decimal
 - ⚠ TODO UAT1.3: When the marks are [5,8,10] Then I Should see 7.667
 - ⚠ TODO UAT1.4: When the marks are [8,4,9] Then I Should see 7.000
 - ⚠ TODO UAT1.5: When the marks are [2,5,10] Then I Should see 5.667
+
+Story 2: dictionary/hash with keys "h", "a", "l"
+- ⚠ TODO UAT2.1: When the marks are [1,5,10] Then I Should see[5.334, {'h': 1, 'a': 0, 'l': 2}]
+- ⚠ TODO UAT2.2: When the marks are [7,7,9] Then I Should see[7.667, {'h': 1, 'a': 2, 'l': 0}]
