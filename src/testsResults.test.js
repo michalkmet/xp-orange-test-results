@@ -13,4 +13,7 @@ describe('Story 1: marks average', () => {
   it('UAT1.4: When the marks are [8,4,9] Then I Should see 7.000', () => {
     expect(testsResults([8, 4, 9])).toBe(7.0);
   });
+  it('UAT1.5: When the marks are [2,5,10] Then I Should see 5.667', () => {
+    expect(testsResults([2, 5, 10])).toBe(5.667);
+  });
 });
