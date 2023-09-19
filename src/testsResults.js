@@ -1,5 +1,5 @@
 function testsResults() {
-  return 'hello';
+  return 9.0;
 }
 
 module.exports = testsResults;
