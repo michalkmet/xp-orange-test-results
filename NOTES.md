@@ -43,6 +43,7 @@ POMODORO 3:
 - ✅ DONE plan User story 2
 - Story 2: dictionary/hash with keys "h", "a", "l"
 - ✅ DONE UAT2.1: When the marks are [1,5,10] Then I Should see[5.333, {'h': 1, 'a': 0, 'l': 2}]
+- ⚠ TODO Refactor first USER story test
 - ⚠ TODO UAT2.2: When the marks are [7,7,9] Then I Should see[7.667, {'h': 1, 'a': 2, 'l': 0}]
 - ⚠ TODO UAT2.3: When the marks are [9,9,10] Then I Should see[9.334, {'h': 3, 'a': 0, 'l': 0}]
 - ⚠ TODO UAT2.4: When the marks are [2,7,9] Then I Should see[6.000, {'h': 1, 'a': 1, 'l': 1}]
