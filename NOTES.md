@@ -29,11 +29,11 @@ POMODORO 2:
 
 Story 1: marks average
 As a teacher, I want to see average mark of the whole class rounded to 3 decimal places.
-- ✅ DONE UAT1.1: When the marks are [9,9,9] Then I Should see 9.000
-- ✅ DONE UAT1.2: When the marks are [5,6,7] Then I Should see 6.000
-- ✅ DONE UAT1.3: When the marks are [5,8,10] Then I Should see 7.667
-- ✅ DONE UAT1.4: When the marks are [8,4,9] Then I Should see 7.000
-- ✅ DONE UAT1.5: When the marks are [2,5,10] Then I Should see 5.667
+- ✅ DONE UAT1.1: When the marks are [9,9,9] Then I Should see [9.0, {"a": 0, "h": 3, "l": 0}]
+- ✅ DONE UAT1.2: When the marks are [5,6,7] Then I Should see [6.0, {"a": 1, "h": 0, "l": 2}]
+- ✅ DONE UAT1.3: When the marks are [5,8,10] Then I Should see [7.667, {"a": 1, "h": 1, "l": 1}]
+- ✅ DONE UAT1.4: When the marks are [8,4,9] Then I Should see [7, {"a": 1, "h": 1, "l": 1}]
+- ✅ DONE UAT1.5: When the marks are [2,5,10] Then I Should see [5.667, {"a": 0, "h": 1, "l": 2}]
 
 - ✅ DONE added tech dept note
 - 🚧 IN PROGRESS plan User story 2
@@ -43,7 +43,7 @@ POMODORO 3:
 - ✅ DONE plan User story 2
 - Story 2: dictionary/hash with keys "h", "a", "l"
 - ✅ DONE UAT2.1: When the marks are [1,5,10] Then I Should see[5.333, {'h': 1, 'a': 0, 'l': 2}]
-- ⚠ TODO Refactor first USER story test
+- ✅ DONE Refactor first USER story
 - ⚠ TODO UAT2.2: When the marks are [7,7,9] Then I Should see[7.667, {'h': 1, 'a': 2, 'l': 0}]
 - ⚠ TODO UAT2.3: When the marks are [9,9,10] Then I Should see[9.334, {'h': 3, 'a': 0, 'l': 0}]
 - ⚠ TODO UAT2.4: When the marks are [2,7,9] Then I Should see[6.000, {'h': 1, 'a': 1, 'l': 1}]
