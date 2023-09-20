@@ -40,4 +40,4 @@ As a teacher, I want to see average mark of the whole class rounded to 3 decimal
 
 POMODORO 3:
 - ✅ pomodoro 3 planning
-- 🚧 IN PROGRESS plan User story 2
+- ✅ DONE plan User story 2
