@@ -22,6 +22,11 @@ Class
 Mark
 dictionary with marks
 
+Actions:
+make average
+count high, average, low marks
+make dictionary
+
 Story 1: marks average
 As a teacher, I want to see average mark of the whole class rounded to 3 decimal places.
 - ⚠ TODO UAT1.1: When the marks are [9,9,9] Then I Should see 9.000

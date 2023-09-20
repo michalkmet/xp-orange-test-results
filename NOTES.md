@@ -37,3 +37,7 @@ As a teacher, I want to see average mark of the whole class rounded to 3 decimal
 
 - ✅ DONE added tech dept note
 - 🚧 IN PROGRESS plan User story 2
+
+POMODORO 3:
+- ✅ pomodoro 3 planning
+- 🚧 IN PROGRESS plan User story 2
