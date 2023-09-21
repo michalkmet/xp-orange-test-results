@@ -45,5 +45,5 @@ As a teacher, I want to see dictionary with keys "h", "a", "l" and number of hig
 
 Story 3: They did well message
 As a teacher, I want to see message "They did well" when students have only high marks (9,10)
-- ⚠ TODO UAT3.1: When the marks are [10, 9, 9, 10, 9, 10, 9] Then I Should see [9.429, {'h': 7, 'a': 0, 'l': 0}, 'They did well']
-- ⚠ TODO UAT3.2: When the marks are [10, 9] Then I Should see [9.5, {'h': 2, 'a': 0, 'l': 0}, 'They did well']
+- ✅ DONE UAT3.1: When the marks are [10, 9, 9, 10, 9, 10, 9] Then I Should see [9.429, {'h': 7, 'a': 0, 'l': 0}, 'They did well']
+- ✅ DONE UAT3.2: When the marks are [10, 9] Then I Should see [9.5, {'h': 2, 'a': 0, 'l': 0}, 'They did well']
