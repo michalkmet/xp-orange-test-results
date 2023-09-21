@@ -51,3 +51,6 @@ POMODORO 4:
 - ✅ DONE UAT2.3: When the marks are [9,9,10] Then I Should see [9.333, {'h': 3, 'a': 0, 'l': 0}]
 - ✅ DONE UAT2.4: When the marks are [2,7,9] Then I Should see [6.000, {'h': 1, 'a': 1, 'l': 1}]
 - ✅ DONE UAT2.5: When the marks are [10,7,9] Then I Should see [8.667, {'h': 2, 'a': 1, 'l': 0}]
+- ✅ DONE Plan User story 3
+- ⚠ TODO UAT3.1: When the marks are [10, 9, 9, 10, 9, 10, 9] Then I Should see [9.429, {'h': 7, 'a': 0, 'l': 0}, 'They did well']
+- ⚠ TODO UAT3.2: When the marks are [10, 9] Then I Should see [9.5, {'h': 2, 'a': 0, 'l': 0}, 'They did well']

@@ -29,15 +29,21 @@ make dictionary
 
 Story 1: marks average
 As a teacher, I want to see average mark of the whole class rounded to 3 decimal places.
-- ⚠ TODO UAT1.1: When the marks are [9,9,9] Then I Should see 9.000
-- ⚠ TODO UAT1.2: When the marks are [5,6,7] Then I Should see 6.000
-- ⚠ TODO UAT1.3: When the marks are [5,8,10] Then I Should see 7.667
-- ⚠ TODO UAT1.4: When the marks are [8,4,9] Then I Should see 7.000
-- ⚠ TODO UAT1.5: When the marks are [2,5,10] Then I Should see 5.667
+- ✅ DONE UAT1.1: When the marks are [9,9,9] Then I Should see 9.000
+- ✅ DONE UAT1.2: When the marks are [5,6,7] Then I Should see 6.000
+- ✅ DONE UAT1.3: When the marks are [5,8,10] Then I Should see 7.667
+- ✅ DONE UAT1.4: When the marks are [8,4,9] Then I Should see 7.000
+- ✅ DONE UAT1.5: When the marks are [2,5,10] Then I Should see 5.667
 
-Story 2: dictionary/hash with keys "h", "a", "l"
-- ⚠ TODO UAT2.1: When the marks are [1,5,10] Then I Should see[5.333, {'h': 1, 'a': 0, 'l': 2}]
-- ⚠ TODO UAT2.2: When the marks are [7,7,9] Then I Should see[7.667, {'h': 1, 'a': 2, 'l': 0}]
-- ⚠ TODO UAT2.3: When the marks are [9,9,10] Then I Should see[9.333, {'h': 3, 'a': 0, 'l': 0}]
-- ⚠ TODO UAT2.4: When the marks are [2,7,9] Then I Should see[6.000, {'h': 1, 'a': 1, 'l': 1}]
-- ⚠ TODO UAT2.5: When the marks are [10,7,9] Then I Should see[8.667, {'h': 2, 'a': 1, 'l': 0}]
+Story 2: dictionary with marks count
+As a teacher, I want to see dictionary with keys "h", "a", "l" and number of high, average and low marks
+- ✅ DONE UAT2.1: When the marks are [1,5,10] Then I Should see[5.333, {'h': 1, 'a': 0, 'l': 2}]
+- ✅ DONE UAT2.2: When the marks are [7,7,9] Then I Should see[7.667, {'h': 1, 'a': 2, 'l': 0}]
+- ✅ DONE UAT2.3: When the marks are [9,9,10] Then I Should see[9.333, {'h': 3, 'a': 0, 'l': 0}]
+- ✅ DONE UAT2.4: When the marks are [2,7,9] Then I Should see[6.000, {'h': 1, 'a': 1, 'l': 1}]
+- ✅ DONE UAT2.5: When the marks are [10,7,9] Then I Should see[8.667, {'h': 2, 'a': 1, 'l': 0}]
+
+Story 3: They did well message
+As a teacher, I want to see message "They did well" when students have only high marks (9,10)
+- ⚠ TODO UAT3.1: When the marks are [10, 9, 9, 10, 9, 10, 9] Then I Should see [9.429, {'h': 7, 'a': 0, 'l': 0}, 'They did well']
+- ⚠ TODO UAT3.2: When the marks are [10, 9] Then I Should see [9.5, {'h': 2, 'a': 0, 'l': 0}, 'They did well']
