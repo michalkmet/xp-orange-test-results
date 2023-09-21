@@ -56,3 +56,5 @@ POMODORO 4:
 - ✅ DONE UAT3.1: When the marks are [10, 9, 9, 10, 9, 10, 9] Then I Should see [9.429, {'h': 7, 'a': 0, 'l': 0}, 'They did well']
 - ⚠ TODO UAT3.2: When the marks are [10, 9] Then I Should see [9.5, {'h': 2, 'a': 0, 'l': 0}, 'They did well']
 - 🚧 IN PROGRESS Refactor previous UATs 
+- ✅ DONE UAT1.1: When the marks are [9,9,9] Then I Should see [9.0, {"a": 0, "h": 3, "l": 0}, 'They did well']
+- ✅ DONE UAT2.3: When the marks are [9,9,10] Then I Should see [9.333, {'h': 3, 'a': 0, 'l': 0}, 'They did well']

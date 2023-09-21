@@ -1,5 +1,4 @@
 function testsResults(marks) {
-  console.log('marks: ', marks.toString());
   let sum = 0;
   let average = 0;
   let lowMarksCount = 0;
@@ -7,7 +6,6 @@ function testsResults(marks) {
   let highMarksCount = 0;
   let result = [];
   const highMarksMessage = 'They did well';
-
 
   marks.forEach((num) => {
     sum += num;
