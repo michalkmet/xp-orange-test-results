@@ -40,4 +40,7 @@ describe('Story 3: They did well message', () => {
   it("UAT3.1: When the marks are [10, 9, 9, 10, 9, 10, 9] Then I Should see [9.429, {'h': 7, 'a': 0, 'l': 0}, 'They did well']", () => {
     expect(testsResults([10, 9, 9, 10, 9, 10, 9])).toEqual([9.429, {'h': 7, 'a': 0, 'l': 0}, 'They did well']);
   });
+  it("UAT3.2: When the marks are [10, 9] Then I Should see [9.5, {'h': 2, 'a': 0, 'l': 0}, 'They did well']", () => {
+    expect(testsResults([10, 9])).toEqual([9.5, {'h': 2, 'a': 0, 'l': 0}, 'They did well']);
+  });
 });
