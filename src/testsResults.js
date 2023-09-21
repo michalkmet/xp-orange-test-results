@@ -6,6 +6,8 @@ function testsResults(marks) {
   let averageMarksCount = 0;
   let highMarksCount = 0;
   let result = [];
+  const highMarksMessage = 'They did well';
+
 
   marks.forEach((num) => {
     sum += num;
@@ -20,6 +22,11 @@ function testsResults(marks) {
 
   average = +(sum / marks.length).toFixed(3);
   result = [average, {'h': highMarksCount, 'a': averageMarksCount, 'l': lowMarksCount}];
+
+  if (highMarksCount > 0 && lowMarksCount === 0 && averageMarksCount === 0) {
+    result.push(highMarksMessage);
+  }
+
   return result;
 }
 
