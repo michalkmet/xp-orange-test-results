@@ -22,4 +22,7 @@ describe('Story 2: dictionary/hash with keys "h", "a", "l"', () => {
   it("UAT2.1: When the marks are [1,5,10] Then I Should see[5.333, {'h': 1, 'a': 0, 'l': 2}]", () => {
     expect(testsResults([1, 5, 10])).toEqual([5.333, {'h': 1, 'a': 0, 'l': 2}]);
   });
+  it("UAT2.2: When the marks are [7,7,9] Then I Should see[7.667, {'h': 1, 'a': 2, 'l': 0}]", () => {
+    expect(testsResults([7, 7, 9])).toEqual([7.667, {'h': 1, 'a': 2, 'l': 0}]);
+  });
 });
