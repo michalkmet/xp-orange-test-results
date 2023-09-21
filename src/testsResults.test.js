@@ -29,6 +29,9 @@ describe('Story 2: dictionary/hash with keys "h", "a", "l"', () => {
     expect(testsResults([9, 9, 10])).toEqual([9.333, {'h': 3, 'a': 0, 'l': 0}]);
   });
   it("UAT2.4: When the marks are [2,7,9] Then I Should see [6.000, {'h': 1, 'a': 1, 'l': 1}]", () => {
-    expect(testsResults([2,7,9])).toEqual([6.000, {'h': 1, 'a': 1, 'l': 1}]);
+    expect(testsResults([2, 7, 9])).toEqual([6.000, {'h': 1, 'a': 1, 'l': 1}]);
+  });
+  it("UAT2.5: When the marks are [10,7,9] Then I Should see [8.667, {'h': 0, 'a': 1, 'l': 2}]", () => {
+    expect(testsResults([10, 7, 9])).toEqual([8.667, {'h': 2, 'a': 1, 'l': 0}]);
   });
 });
